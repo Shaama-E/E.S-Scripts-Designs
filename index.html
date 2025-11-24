@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>E.S Scripts & Design — Home</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <meta name="description" content="E.S Scripts & Design — custom flyers, wedding stationery, posters and modern websites.">
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+    <a class="logo" href="index.html">E.S Scripts <span class="logo-amp">&</span> Design</a>
+
+      <nav class="nav">
+        <a href="index.html" >Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" class="btn-outline">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="toggle menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    
+    <section class="hero" aria-label="Intro">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">creative studio</p>
+          <h1 class="hero-title">
+            <span class="hero-line">Design.</span>
+            <span class="hero-line">Create.</span>
+            <span class="hero-line">Inspire.</span>
+          </h1>
+          <p class="lead">We craft striking flyers, elegant wedding stationery and modern websites that bring your vision to life.</p>
+
+          <div class="hero-ctas">
+            <a href="portfolio.html" class="btn-primary">View Portfolio</a>
+            <a href="services.html" class="btn-primary">Our Services</a>
+          </div>
+        </div>
+
+        <figure class="hero-image" aria-hidden="true">
+          <!-- replace with your photo / art -->
+          <img src="images/IMG-20251112-WA0008-.png" alt="Studio creative work" loading="lazy">
+        </figure>
+      </div>
+
+      <!-- soft animated shapes -->
+      <div class="shape shape-1" aria-hidden="true"></div>
+      <div class="shape shape-2" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT PREVIEW -->
+    <section class="about-preview container reveal" id="about">
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="images/IMG-20251112-WA0006-.png" alt="About preview" loading="lazy">
+        </div>
+        <div class="about-copy">
+          <h2>Crafted with attention to every detail</h2>
+          <p>At E.S Scripts &amp; Design we blend modern aesthetics with practical design — from wedding invites to full brand websites. Each project is tailored and hand-refined.</p>
+          <a href="about.html" class="btn-primary">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services container" id="services">
+      <header class="section-head">
+        <h3>Services</h3>
+        <p>Graphic design, Wedding & Event Stationerys, and website & portfolio development.</p>
+      </header>
+
+      <div class="service-grid">
+
+        <article class="service-card reveal">
+          <div class="icon">💻</div>
+          <h4>Websites & Portfolios</h4>
+          <p>Modern, responsive sites and portfolios built with attention to UI and performance.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="icon">💌</div>
+          <h4>Wedding & Event Stationerys</h4>
+          <p>Elegant digital invitations, RSVP cards and suites with print-ready files.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="icon">🎨</div>
+          <h4>Graphic Design</h4>
+          <p>Flyers, posters, menus, business cards that are crafted to stand out and convert.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PORTFOLIO PREVIEW -->
+    <section class="portfolio-preview container reveal" id="portfolio">
+      <header class="section-head">
+        <h3>Selected Work</h3>
+        <p>A small selection of recent projects. Visit the portfolio page for more.</p>
+      </header>
+
+      <div class="portfolio-grid">
+        <a href="portfolio.html" class="work-card">
+          <img src="images/Bake with Betty.png" alt="Poster design sample" loading="lazy">
+          <div class="work-meta" style="color: black;">
+            <h5>Event Poster</h5>
+            <span>Graphic Design</span>
+          </div>
+        </a>
+
+        <a href="portfolio.html" class="work-card">
+          <img src="images/Aj's Landing page.png" alt="Website landing sample" loading="lazy">
+          <div class="work-meta" style="color: black;">
+            <h5>Landing Page</h5>
+            <span>Website</span>
+          </div>
+        </a>
+
+        <a href="portfolio.html" class="work-card work-see-more">
+          <div class="see-more">See full portfolio →</div>
+        </a>
+      </div>
+    </section>
+
+    <section style="display:flex; justify-content:center; align-items:center; flex-direction:column; min-height:50vh; text-align:center; gap:12px;">
+  <h4 style="margin-bottom: 10px; font-size:1rem; color: #9b6d82;">Ready to start your project?</h4>
+  <p style="color: #9b6d82;">Let's create something memorable — invitations, prints or a website.</p>
+  <p style="margin-top:0;" > 
+    <a href="contact.html" class="btn-primary large">Get in touch</a>
+  </p>
+</section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>< DESIGN.CREATE.CODE /> <br> © E.S Scripts &amp; Designs  </p>
+      <nav class="socials">
+        <a href="#"  aria-label="Instagram">IG</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+        <a href="#" aria-label="TikTok">TK</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>

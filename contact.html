@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — E.S Scripts & Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Contact E.S Scripts & Design — get a quote or start a project.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">E.S Scripts <span class="logo-amp">&</span> Design</a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" aria-current="page" class="btn-outline">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="toggle menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Contact intro">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">We Are Happy To Hear From You</p>
+          <h1 class="hero-title"><span class="hero-line active">Contact Us</span></h1>
+          <p class="lead">Share your vision with us 💭. From dreamy invitations 💌 and timeless posters 🎨 to beautifully crafted websites 💻. 
+            <span style="display:block; margin-top:20px;">
+              Reach out through the form 🖋, WhatsApp 💬, or email 📧 below, and we’ll respond within 48 hours.
+            </span> 
+           </p>
+
+           <h1 class="hero-title">
+              <span class="hero-line">Connect 🤝</span>
+              <span class="hero-line">Collaborate 💬</span>
+              <span class="hero-line">Share Ideas 💡</span>
+              <span class="hero-line">Make Magic ✨</span>
+              <span class="hero-line">Bring Ideas to Life 🎨</span>
+
+          </h1>
+        </div>
+        <figure class="hero-image" aria-hidden="true">
+          <img src="images/IMG-20251112-WA0009-.png" alt="Contact image" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+<section class="contact-grid">
+
+  <!-- WhatsApp Card -->
+  <div class="contact-box">
+    <span class="contact-icon">💬</span>
+    <h4>WhatsApp</h4>
+    <p>Chat with us anytime regarding your project.<br>(+264 815 521 160)</p>
+    <a href="https://wa.me/264815521160" class="contact-btn">Message on WhatsApp</a>
+  </div>
+
+  <!-- Email Card -->
+  <div class="contact-box">
+    <span class="contact-icon">📧</span>
+    <h4>Email</h4>
+    <p>Send us more detailed project info via email.<br>(msshaama0@gmail.com)</p>
+    <a href="mailto:msshaama0@gmail.com" class="contact-btn">Send Email</a>
+  </div>
+
+  <!-- Phone Card -->
+  <div class="contact-box">
+    <span class="contact-icon">📞</span>
+    <h4>Call Us</h4>
+    <p>Available Mon–Sat for quick inquiries.<br>(+264 833 555 888)</p>
+    <a href="tel:+264833555888" class="contact-btn">Call Now</a>
+  </div>
+
+</section>
+
+
+<section class="container reveal" style="padding:28px 20px;">
+  <div style="display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:start; background-color:#FAF9EE; padding: 30px 20px; border-radius: 25px; border: 2px solid #A2AF9B;
+  border-radius: 18px;
+  padding: 28px 22px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: 0.3s ease; width: 60%; margin: 0 auto; ">
+
+    <!-- contact form -->
+    <div>
+      <form id="contactForm" 
+      class="reveal" 
+      aria-label="Contact form" 
+      autocomplete="on"
+      action="https://formspree.io/f/mwpavqaq" 
+      method="POST">
+
+      <input type="hidden" name="_subject" value="New Message From E.S Scripts & Design">
+      <input type="hidden" name="_captcha" value="false">
+
+       <p>Fill in your details — we’ll reach out within 48 hours.</p>
+
+      <div class="form-row">
+      <label for="name">NAME</label>
+      <input id="name" name="name" type="text" required class="form-input">
+    </div>
+
+    <div class="form-row">
+      <label for="email">EMAIL</label>
+      <input id="email" name="email" type="email" required class="form-input">
+    </div>
+
+            <div class="form-row">
+      <label for="service">SERVICE</label>
+      <select id="service" name="service" class="form-input">
+        <option value="">— choose —</option>
+        <option>Graphic Design</option>
+        <option>Wedding Stationery</option>
+        <option>Website / Portfolio</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="form-row">
+      <label for="message">MESSAGE</label>
+      <textarea id="message" name="message" rows="6" required class="form-input"></textarea>
+    </div>
+
+    <div style="display:flex;gap:12px;align-items:center">
+      <button type="submit" class="contact-btn">Send message</button>
+      <button type="reset" class="contact-btn">Reset</button>
+    </div>
+  </form>
+
+  <p id="formStatus" style="display:none; margin-top:12px;"></p>
+</div>
+
+
+
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>< DESIGN.CREATE.CODE /> <br> © E.S Scripts &amp; Designs  </p>
+      <nav class="socials">
+        <a href="#"  aria-label="Instagram">IG</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+        <a href="#" aria-label="TikTok">TK</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
