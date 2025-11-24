@@ -145,7 +145,7 @@ body {
   display: block;
   opacity: 0;
   transform: translateY(10px);
-  transition: all .8s;
+  transition: all .4s;
 }
 .hero-title .hero-line.active {
   opacity: 1;
